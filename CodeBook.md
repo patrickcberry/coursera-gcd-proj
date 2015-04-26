@@ -45,6 +45,8 @@ From the Code Book for the original dataset;
 
 > fBodyGyroJerkMag
 
+
+
 > The set of variables that were estimated from these signals are: 
 
 > mean(): Mean value
@@ -81,6 +83,8 @@ From the Code Book for the original dataset;
 
 > angle(): Angle between to vectors.
 
+
+
 > Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
 > gravityMean
@@ -93,17 +97,17 @@ From the Code Book for the original dataset;
 
 > tBodyGyroJerkMean
 
+
 This project took a subset of the above data, the mean() and std() only where retained.
 
 ## Variable list
 
 The full list of variables names,
 
-| Variable							|		|
-|-----------------------------------|-------|
-| tBodyAcc-mean()-X                 | aaa	|
-| tBodyAcc-mean()-Y                 | bbb	|
-| tBodyAcc-mean()-Z                 | 		|
+|-----------------------------------|
+| tBodyAcc-mean()-X                 |
+| tBodyAcc-mean()-Y                 |
+| tBodyAcc-mean()-Z                 |
 | tGravityAcc-mean()-X              |
 | tGravityAcc-mean()-Y              |
 | tGravityAcc-mean()-Z              |
