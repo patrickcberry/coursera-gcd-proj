@@ -14,7 +14,7 @@ This project required,
 
 The supplied data came from the "Human Activity Recognition Using Smartphones Dataset" produced by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio and Luca Oneto.
 
-For details of the study see the [CodeBook]("CodeBook.md")
+For details of the study see the [CodeBook](CodeBook.md)
 
 ## Data Location
 
@@ -22,7 +22,7 @@ The data is assumed to have been 'unzipped' in the current working directory. Th
 
 The script will attempt to open the following files,
 
-'''
+```
 UCI HAR Dataset
   |--- activity_labels.txt
   |--- features.txt
@@ -34,7 +34,7 @@ UCI HAR Dataset
   |       |--- subject_train.txt
   |       |--- X_train.txt
   |       |--- y_train.txt
-'''
+```
 
 ## Script
 A single script, *run_analysis.R* contains all of the code to load the data and produce the tidy data set.
@@ -42,9 +42,9 @@ A single script, *run_analysis.R* contains all of the code to load the data and 
 ### Running the script
 Run the script with the following command,
 
-'''
+```
 source("run_analysis.R")
-'''
+```
 ### Dependencies
 
 The script is dependent on the following libraries,
