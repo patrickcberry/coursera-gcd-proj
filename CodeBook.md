@@ -63,9 +63,9 @@ This project took a subset of the above data, the mean() and std() only where re
 
 The full list of variables names,
 
-| tBodyAcc-mean()-X
-| tBodyAcc-mean()-Y
-| tBodyAcc-mean()-Z
+| tBodyAcc-mean()-X         | 
+| tBodyAcc-mean()-Y         | 
+| tBodyAcc-mean()-Z         | 
 | tGravityAcc-mean()-X
 | tGravityAcc-mean()-Y
 | tGravityAcc-mean()-Z
