@@ -31,9 +31,9 @@ UCI HAR Dataset
   |       |--- X_test.txt
   |       |--- y_test.txt
   |--- train
-  |       |--- subject_train.txt
-  |       |--- X_train.txt
-  |       |--- y_train.txt
+          |--- subject_train.txt
+          |--- X_train.txt
+          |--- y_train.txt
 ```
 
 ## Script
@@ -50,11 +50,15 @@ source("run_analysis.R")
 The script is dependent on the following libraries,
 * dplyr
 
+If not already install with the following command,
+```
+install.packages("dplyr")
+```
+
 ### Output
 
 The final tidy data set is written to *tidy_data_set.txt* in the current working directory.
 
-## Script Operation
 
 
 
