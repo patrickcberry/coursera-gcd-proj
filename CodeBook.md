@@ -45,7 +45,7 @@ From the Code Book for the original dataset;
 
 > fBodyGyroJerkMag
 
-
+>
 
 > The set of variables that were estimated from these signals are: 
 
@@ -83,7 +83,7 @@ From the Code Book for the original dataset;
 
 > angle(): Angle between to vectors.
 
-
+>
 
 > Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
@@ -104,6 +104,7 @@ This project took a subset of the above data, the mean() and std() only where re
 
 The full list of variables names,
 
+| Variable Name						|
 |-----------------------------------|
 | tBodyAcc-mean()-X                 |
 | tBodyAcc-mean()-Y                 |
